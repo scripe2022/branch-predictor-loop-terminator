@@ -1,5 +1,5 @@
-// run  := cargo build && bunzip2 -kc ../traces/fp_1.bz2 | /home/jyh/ucsd/sp25/cse240A/bp/target/debug/bp --gshare 13
 // run  := cargo build && bunzip2 -kc ../traces/fp_1.bz2 | /home/jyh/ucsd/sp25/cse240A/bp/target/debug/bp --custom
+// run  := cargo build && bunzip2 -kc ../traces/fp_1.bz2 | /home/jyh/ucsd/sp25/cse240A/bp/target/debug/bp --gshare 13
 // run  := cargo build && bunzip2 -kc ../traces/fp_1.bz2 | /home/jyh/ucsd/sp25/cse240A/bp/target/debug/bp --tage
 // run  := cargo build && bunzip2 -kc ../traces/fp_1.bz2 | /home/jyh/ucsd/sp25/cse240A/bp/target/debug/bp --tournament 9 10 10
 // run  := cargo build && bunzip2 -kc ../traces/fp_1.bz2 | /home/jyh/ucsd/sp25/cse240A/bp/target/debug/bp --static

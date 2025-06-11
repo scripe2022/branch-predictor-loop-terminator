@@ -50,7 +50,7 @@ impl BPCustom {
 
         let total_bits = 
             2 * (1 << ghistory_bits) + // global_table
-            2 * (1 << ghistory_bits) + // chooser_table
+            3 * (1 << ghistory_bits) + // chooser_table
             (loop_history_bits + loop_history_bits + CHOOSER_BITS as usize + 1) * (1 << n_loop) + // loop_table
             lhistory_bits * (1 << pc_index_bits) + // local_pattern
             2 * (1 << lhistory_bits); // local_table
